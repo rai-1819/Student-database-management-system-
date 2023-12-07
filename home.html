@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+</head>
+    
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://thumbs.dreamstime.com/z/white-grid-math-paper-wrinkled-texture-background-rough-surface-pattern-graph-paper-white-grid-math-paper-wrinkled-texture-137375504.jpg?w=768');
+      margin: 0;
+      padding: 0;
+    }
+
+header {
+
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+.movie-list {
+display: flex;
+align-items: center;
+transform: translateX(0);
+transition: all 1s ease-in-out;
+}
+
+.tabs {
+margin-right: 70px;
+margin-top: 80px;  
+position: relative;
+text-align: center;
+font-size: 30px;
+font-family: 'Kanit', sans-serif;
+}
+
+.tabs:hover .management {
+transform: scale(1.2);
+margin: 0 30px;
+opacity: 0.8;
+}
+
+.tabs:hover .tabs-title,
+.tabs:hover .tabs-desc,
+.tabs:hover .tabs-button {
+opacity: 1;
+}
+
+.management {
+transition: all 1s ease-in-out;
+width: 240px;
+height: 340px;
+object-fit: cover;
+border-radius: 10px;
+}
+
+</style>
+
+<body>
+    <header>
+        <a href="file:///X:/WTF/CSE326/student%20Management%20System%20for%20Educational%20Institutions/login.html" style="color: white; text-decoration: none; margin-left: 1150px;">Logout</a>
+        <h1>STUDENT MANAGEMENT SYSTEM</h1>
+      </header>
+
+<div class="movie-list">
+
+<div class="tabs">
+<a href="file:///X:/WTF/CSE326/student%20Management%20System%20for%20Educational%20Institutions/Student%20details.html"><button><img class="management" src="https://img.freepik.com/premium-photo/copy-space-graduated-students_23-2148522274.jpg?w=740" alt=""></button></a>
+<span class="tabs-title"><b>Student detail</b></span>
+</div>
+
+<div class="tabs">
+<a href="file:///X:/WTF/CSE326/student%20Management%20System%20for%20Educational%20Institutions/timetable.html"><button><img class="management" src="https://i.pinimg.com/564x/ed/9c/7b/ed9c7b873b5adae3aa5982917cc728d3.jpg" alt=""></button></a>
+<span class="tabs-title"><b>Timetable</b></span>
+</div>
+
+<div class="tabs">
+<a href="file:///X:/WTF/CSE326/student%20Management%20System%20for%20Educational%20Institutions/exam.html"><button><img class="management" src="https://www.battabox.com/ajako/2023/03/0e5910d73dfcff0ec0373e83d5ed11cf.jpg" alt=""></button></a>
+<span class="tabs-title"><b>Exams</b></span>
+</div>
+
+<div class="tabs">
+<a href="file:///X:/WTF/CSE326/student%20Management%20System%20for%20Educational%20Institutions/results.html"><button><img class="management" src="https://i.pinimg.com/564x/8b/58/c4/8b58c44d7ddb5ff2d2d8e01166036e70.jpg" alt=""></button></a>
+<span class="tabs-title"><b>Results</b></span>
+</div>
+
+</body>
+
+</html>
